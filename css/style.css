@@ -1,0 +1,48 @@
+.navbar-sa {
+  background-color: aquamarine;
+  font-family: sans-serif;
+  box-shadow: black;
+}
+
+.navbar-sal {
+  justify-content: right;
+}
+
+.header {
+  background-image: url("../images/tkbooks.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 1000px;
+}
+
+.header-overlay {
+  background-color: rgba(31,31,31,.75);
+  height: 945px;
+}
+
+.header-text h1 {
+  color: white;
+  padding-top: 380px;
+  font-size: 65px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  letter-spacing: 10px;
+}
+
+.header-text p {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 0;
+  padding-top: 0;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
