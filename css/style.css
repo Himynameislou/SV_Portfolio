@@ -29,18 +29,20 @@ html, body {
   -o-background-size: cover;
   -webkit-background-size: cover;
   height: 100vh;
+  width: 100vw;
 }
 
 .header-overlay {
   background-color: rgba(31,31,31,.75);
-  /* height: ; */
+  height: 100%;
+  width: 100%;
 }
 
 
 
 .header-text h1 {
   color: white;
-  padding-top: 300px;
+  padding-top: 400px;
   padding-bottom: 150px;
   font-size: 65px;
   font-weight: 800;
@@ -61,3 +63,8 @@ html, body {
   word-spacing: 5px;
 }
 
+#sarahimg {
+  margin-top: 20px;
+  border-radius: 100%;
+  margin-bottom: 20px;;
+}
