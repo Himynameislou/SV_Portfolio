@@ -21,7 +21,7 @@ body {
 
 
 
-.img {
+.imgtop {
   background-image: url("/images/tkbooks2.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -74,4 +74,37 @@ body {
 
 ul {
   list-style-position: inside;
+}
+
+.imgexcitinghist {
+  background-image: url("/images/bb.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 55vh;
+  width: 100vw;
+}
+
+.header-overlay2 {
+  background-color: rgba(31, 31, 31, .2);
+  height: 100%;
+  width: 100%;
+}
+
+.weaHistory {
+  color: white;
+
+}
+
+.p-histo {
+  color: aliceblue;
+}
+
+.ulEXHIS {
+  color: aliceblue;
+  text-emphasis: emphasis;;
 }
