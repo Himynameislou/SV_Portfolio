@@ -44,7 +44,7 @@ $(document).ready(function(){
 });
 
 // Add Smoothing Scrolling to nav items
-
+// This is a test.
 // adding smooth scroll to bottom angle up; "#scroll-to-top"
 // also make note on html to add id (<a href="#HOME" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>)
 $(document).ready(function() {
