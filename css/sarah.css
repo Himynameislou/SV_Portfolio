@@ -72,7 +72,7 @@ body {
   ;
 }
 
-ul {
+.ul-EXHIS ul {
   list-style-position: inside;
 }
 
@@ -90,7 +90,7 @@ ul {
 }
 
 .header-overlay2 {
-  background-color: rgba(31, 31, 31, .2);
+  background-color: rgba(31, 31, 31, .6);
   height: 100%;
   width: 100%;
 }
@@ -104,7 +104,7 @@ ul {
   color: aliceblue;
 }
 
-.ulEXHIS {
+.ul {
   color: aliceblue;
   text-emphasis: emphasis;;
 }
