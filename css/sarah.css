@@ -72,9 +72,9 @@ body {
   ;
 }
 
-.ul-EXHIS ul {
+/* .ul-EXHIS ul {
   list-style-position: inside;
-}
+} */
 
 .imgexcitinghist {
   background-image: url("/images/bb.png");
@@ -104,9 +104,12 @@ body {
   color: aliceblue;
 }
 
-.ul {
+/* .ul {
   color: aliceblue;
   text-emphasis: emphasis;;
-}
+} */
 
+.historylist {
+  text-align: center;
+}
 
