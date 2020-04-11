@@ -109,7 +109,15 @@ body {
   text-emphasis: emphasis;;
 } */
 
-.historylist {
+/* .historylist {
   text-align: center;
+} */
+
+#hxlist {
+  list-style-type: none;
+  color:  white;
+  list-style-position: inside;
+  text-align: center;
+  font-size: 80px;
 }
 
