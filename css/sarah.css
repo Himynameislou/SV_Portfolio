@@ -118,6 +118,16 @@ body {
   color:  white;
   list-style-position: inside;
   text-align: center;
-  font-size: 80px;
+  font-size: 70px;
 }
 
+.contact {
+  background-color: blanchedalmond
+
+}
+
+.conticons li {
+  font-size: 40px;
+  display: inline;
+  padding: 20px;
+}
