@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Roboto+Slab&display=swap');
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto Slab', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 html,
 body {
   width: 100%;
   height: 100%;
+  background-color: lightcyan;
 }
 
 .navbar-sa {
@@ -37,7 +42,8 @@ body {
 .header-overlay {
   background-color: rgba(31, 31, 31, .75);
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
+  max-width: 100%;
 }
 
 
@@ -65,11 +71,19 @@ body {
   word-spacing: 5px;
 }
 
-#sarahimg {
+/* #sarahimg {
   margin-top: 20px;
   border-radius: 100%;
   margin-bottom: 20px;
   ;
+} */
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 100%;
+  margin-bottom: 20px;
 }
 
 /* .ul-EXHIS ul {
@@ -97,11 +111,14 @@ body {
 
 .weaHistory {
   color: white;
+  padding-top: 50px;
+  
 
 }
 
 .p-histo {
   color: aliceblue;
+  padding-top: 20px;
 }
 
 /* .ul {
@@ -118,16 +135,45 @@ body {
   color:  white;
   list-style-position: inside;
   text-align: center;
-  font-size: 70px;
+  font-size: 3vw;
+  padding: 20px;
 }
 
 .contact {
-  background-color: blanchedalmond
+  background-color: cadetblue
 
 }
 
 .conticons li {
-  font-size: 40px;
+  font-size: 30px;
   display: inline;
   padding: 20px;
+}
+
+.h1-about {
+/* font-family: 'Montserrat', sans-serif; */
+padding-top: 50px;
+}
+
+.p1-about {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.cv {
+  padding-top: 50px;
+}
+
+.curic {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.contacth1 {
+  padding-top: 15px;
+}
+
+.conticons {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
