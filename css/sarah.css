@@ -23,7 +23,13 @@ body {
 .navbar-sal a:hover {
   justify-content: right;
   background-color: aqua;
+}
 
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
@@ -91,9 +97,6 @@ body {
   border-width: 10px;
 }
 
-/* .ul-EXHIS ul {
-  list-style-position: inside;
-} */
 
 .imgexcitinghist {
   background-image: url("/images/bb.png");
@@ -117,8 +120,29 @@ body {
 .weaHistory {
   color: white;
   padding-top: 50px;
-  
+}
 
+.h4Pres {
+  color: white;
+  font-style: italic;
+  padding-top: 20px;
+}
+
+.Ppres {
+  color: white;
+}
+
+#PP {
+  padding-top: 30px;
+}
+
+#hxlist {
+  list-style-type: none;
+  color:  white;
+  list-style-position: inside;
+  text-align: right;
+  font-size: 3vw;
+  padding: 20px;
 }
 
 .p-histo {
@@ -135,14 +159,6 @@ body {
   text-align: center;
 } */
 
-#hxlist {
-  list-style-type: none;
-  color:  white;
-  list-style-position: inside;
-  text-align: center;
-  font-size: 3vw;
-  padding: 20px;
-}
 
 .contact {
   background-color: cadetblue
@@ -185,9 +201,10 @@ padding-top: 50px;
 }
 
 #nav {
+  height: 30px;
   display: flex; 
   width: 100%;
-  transition:  1s;
+  transition:  2s;
   top: 0;
   /* position: fixed; */
   background: linear-gradient(to left, #a4b6d0, lightcyan,#ffecbc);
@@ -204,10 +221,10 @@ padding-top: 50px;
   text-decoration: none;
 }
 
+/* CV Sections CSS */
+
 #cvline {
-  height: .1px;
   background-color: blue;
-  /* border: 5px; */
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -215,17 +232,15 @@ padding-top: 50px;
 }
 
 #eduH1 {
-  left: 0px;
-  padding-left: 200px;
-  margin-left: 0;
+  text-align: right;
 }
 
 .cv {
   text-align: center;
 }
 
-/* .dates {
-  text-align: center;
+ .dates {
+  text-align: right;
 }
 
 .degree {
@@ -233,10 +248,78 @@ padding-top: 50px;
 }
 
 .school {
-  text-align: center;
-} */
+  /* text-align: left; */
+  /* position: absolute;
+  left: 0; */
+} 
 
-.education {
-  text-align: center;
+.education  {
   list-style: none;
+}
+
+.subbul {
+  list-style: none;
+}
+
+.liItem {
+  padding-bottom: 10px;
+}
+
+.years {
+  text-align: right;
+}
+
+.position {
+  text-align: center;
+}
+
+
+.professionUL  {
+  list-style: none;
+}
+
+.EducSection {
+  padding-top: 25px;
+}
+
+.ProfSection {
+  padding-top: 25px;
+}
+
+.FellowAwards {
+  padding-top: 25px;
+}
+
+.felaward {
+  text-align: center;
+}
+
+.presearch {
+  text-align: left;
+}
+
+.research {
+  padding-top: 25px;
+}
+
+.h5-spec {
+  text-align: left;
+  font-style: italic;
+}
+
+.p-spec {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.SpecialistCourse {
+  padding-top: 25px;
+}
+
+.ser-years {
+  text-align: right;
+}
+
+.ServiceActiv {
+  padding-top: 25px;
 }
