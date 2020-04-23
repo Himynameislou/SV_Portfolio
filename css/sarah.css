@@ -22,7 +22,8 @@ body {
 
 .navbar-sal a:hover {
   justify-content: right;
-  background-color: aqua;
+  text-shadow: 0 0 10px aqua ;
+  transition: 1s;
 }
 
 .navbar-brand {
