@@ -22,7 +22,7 @@ body {
 
 .navbar-sal a:hover {
   justify-content: right;
-  text-shadow: 0 0 10px aqua ;
+  text-shadow: 0 0 10px #b784a7 ;
   transition: 1s;
 }
 
@@ -226,7 +226,7 @@ padding-top: 50px;
 
 #cvline {
   background-color: blue;
-  width: 75%;
+  width: 25%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -245,7 +245,7 @@ padding-top: 50px;
 }
 
 .degree {
-  text-align: center;
+  text-align: left;
 }
 
 .school {
@@ -271,7 +271,7 @@ padding-top: 50px;
 }
 
 .position {
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -292,7 +292,7 @@ padding-top: 50px;
 }
 
 .felaward {
-  text-align: center;
+  text-align: left;
 }
 
 .presearch {
