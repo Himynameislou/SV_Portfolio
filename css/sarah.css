@@ -145,7 +145,9 @@ body {
 }
 
 .contact {
-  background-color: cadetblue
+  background-color: cadetblue;
+  padding-top: 15px;
+  max-height: fit-content;
 
 }
 
@@ -175,14 +177,15 @@ padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.contacth1 {
-  padding-top: 15px;
+#CURR {
+  padding-bottom: 50px;
 }
 
-.conticons {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.contacth1 {
+  padding-bottom: 0;
+  padding-top: 0;
 }
+
 
 #nav {
   height: 30px;
@@ -322,3 +325,4 @@ padding-top: 50px;
 .ServiceActiv {
   padding-top: 25px;
 }
+
