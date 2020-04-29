@@ -3,8 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto Slab', sans-serif;
-  /* font-family: 'Raleway', sans-serif; */
-  /* font-family: 'Montserrat', sans-serif; */
+ 
 }
 
 html,
@@ -100,8 +99,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
-  height: 55vh;
-  width: 100vw;
+  height: 25vw;
 }
 
 .header-overlay2 {
@@ -112,13 +110,14 @@ body {
 
 .weaHistory {
   color: white;
-  padding-top: 50px;
+  padding-top: 2vw;
+  padding-bottom: 1vw;;
 }
 
 .h4Pres {
   color: white;
   font-style: italic;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .Ppres {
@@ -126,9 +125,6 @@ body {
   max-width: 850px;
 }
 
-#PP {
-  padding-top: 30px;
-}
 
 #hxlist {
   list-style-type: none;
@@ -136,7 +132,7 @@ body {
   list-style-position: inside;
   text-align: right;
   font-size: 3vw;
-  padding: 10px;
+  padding: 3;
 }
 
 .p-histo {
@@ -326,3 +322,6 @@ padding-top: 50px;
   padding-top: 26px;
 }
 
+#smallbreak {
+  display: none;
+}
