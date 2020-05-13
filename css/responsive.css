@@ -11,7 +11,7 @@
  
 @media all and (min-width: 768px) and (max-width: 1024px) { }
  
-@media all and (min-width: 480px) and (max-width: 768px) { 
+/*@media all and (min-width: 480px) and (max-width: 768px) { 
   .imgtop {
     background-image: url("/images/tkbooks-mobile.png");
     background-attachment: fixed;
@@ -388,5 +388,799 @@
     padding-bottom: 0;
   
   }
+
+}  */
+
+
+
+/* **************************************** */
+/**************************** **************************/
+/* **************************************** */
+/**************************** **************************//* **************************************** */
+/**************************** **************************//* **************************************** */
+/**************************** **************************//* **************************************** */
+/**************************** **************************/
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .imgtop {
+      background-image: url("/images/tkbooks-mobile.png");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+    }
+  
+    .header-text h1 {
+      color: white;
+      font-size: 16px;
+      font-weight: 800;
+      text-align: left;
+      margin-bottom: 5;
+      padding-bottom: 0;
+      letter-spacing: 2;
+    }
+  
+    .header-text p {
+      color: white;
+      font-size: 10px;
+      text-align: center;
+      margin-top: 0;
+      padding-top: 0;
+      letter-spacing: 2px;
+      word-spacing: 1;
+    }
+  
+    #nav {
+      height: 55px;
+      display: flex; 
+      width: 100%;
+      transition:  2s;
+      top: 0;
+      background: linear-gradient(to left, #a4b6d0, lightcyan,#ffecbc);
+    } 
+    .navbar-brand {
+      padding-top: auto;
+      padding-bottom: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: small;
+    }
+  
+    .h1-about {
+      font-size: 16px;
+    }
+  
+    .p1-about {
+      font-size: 12px;
+    }
+    
+    .p1about {
+      max-width: 95%;
+      line-height: 2;
+    }
+  
+    .weaHistory {
+      color: white;
+      font-size: 16px;
+    }
+  
+    #hxlist {
+      display: none;
+     
+    }
+  
+    .h4Pres {
+      color: white;
+      font-style: italic;
+      padding-top: 20px;
+      font-size: 16px;
+    }
+  
+    #PP {
+      padding-top: 0;
+    }
+  
+    .Ppres {
+      color: white;
+      max-width: 95%;
+      font-size: 8px;
+    }
+  
+   .imgexcitinghist {
+    background-image: url("/images/bb.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    height: 90vw;
+    }
+    #eduH1 h2{
+      text-align: left;
+      font-size: 16px;
+    }
+  
+    #eduH1 {
+      text-align: left;
+      font-size: 16px;
+    }
+  
+    .weaHistory {
+      color: white;
+      padding-top: 3vw;
+      padding-bottom: 1vw;
+    }
+  
+    
+  
+    .cv {
+      text-align: center;
+      font-size: 16px;
+    }
+    
+     .dates {
+      text-align: left;
+      font-size: 8px;
+    }
+    
+    .degree {
+      text-align: left;
+      font-size: 16px;
+    }
+    
+    .education  {
+      list-style: none;
+      font-size: 16px;
+    }
+    
+    .subbul {
+      list-style: none;
+      font-size: 8px;
+    }
+  
+    .liItem {
+      max-width: 100%;
+      font-size: 8px;
+      padding-bottom: 10px;
+    }
+    .presearch {
+      text-align: left;
+      max-width: 850px; 
+      padding-bottom: 10px;
+      font-size: 8px;
+    }
+  
+    .h5-spec {
+      text-align: left;
+      font-style: italic;
+      font-size: 12px;
+    }
+  
+    .p-spec {
+      text-align: left;
+      padding-bottom: 10px;
+      max-width: 95%;
+      font-size: 8px;
+    }
+  
+    .contacth1 {
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 16px;
+    }
+  
+    .conticons li {
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 8px;
+      display: inline;
+    }
+  
+    .contact {
+      background-color: cadetblue;
+      max-height: 50px;
+      padding-top: 0;
+      padding-bottom: 0;
+    
+    }
+  }
+   
+  @media all and (max-width: 480px) {
+    
+    .imgtop {
+      background-image: url("/images/tkbooks-mobile.png");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+    }
+  
+    .header-text h1 {
+      color: white;
+      font-size: 16px;
+      font-weight: 800;
+      text-align: left;
+      margin-bottom: 5;
+      padding-bottom: 0;
+      letter-spacing: 2;
+    }
+  
+    .header-text p {
+      color: white;
+      font-size: 10px;
+      text-align: center;
+      margin-top: 0;
+      padding-top: 0;
+      letter-spacing: 2px;
+      word-spacing: 1;
+    }
+  
+    #nav {
+      height: 49px;
+      display: flex; 
+      width: 100%;
+      transition:  2s;
+      top: 0;
+      background: linear-gradient(to left, #a4b6d0, lightcyan,#ffecbc);
+    } 
+    .navbar-brand {
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: small;
+    }
+  
+    .h1-about {
+      font-size: 16px;
+    }
+  
+    .p1-about {
+      font-size: 12px;
+    }
+    
+    .p1about {
+      max-width: 95%;
+      line-height: 2;
+    }
+  
+    .weaHistory {
+      color: white;
+      font-size: 16px;
+    }
+  
+    #hxlist {
+      display: none;
+     
+    }
+  
+    .h4Pres {
+      color: white;
+      font-style: italic;
+      padding-top: 20px;
+      font-size: 16px;
+    }
+  
+    #PP {
+      padding-top: 0;
+    }
+  
+    .Ppres {
+      color: white;
+      max-width: 95%;
+      font-size: 8px;
+    }
+  
+   .imgexcitinghist {
+    background-image: url("/images/bb.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    height: 90vw;
+    }
+    #eduH1 h2{
+      text-align: left;
+      font-size: 16px;
+    }
+  
+    #eduH1 {
+      text-align: left;
+      font-size: 16px;
+    }
+  
+    .weaHistory {
+      color: white;
+      padding-top: 3vw;
+      padding-bottom: 1vw;
+    }
+  
+    
+  
+    .cv {
+      text-align: center;
+      font-size: 16px;
+    }
+    
+     .dates {
+      text-align: left;
+      font-size: 8px;
+    }
+    
+    .degree {
+      text-align: left;
+      font-size: 16px;
+    }
+    
+    .education  {
+      list-style: none;
+      font-size: 16px;
+    }
+    
+    .subbul {
+      list-style: none;
+      font-size: 8px;
+    }
+  
+    .liItem {
+      max-width: 100%;
+      font-size: 8px;
+      padding-bottom: 10px;
+    }
+    .presearch {
+      text-align: left;
+      max-width: 850px; 
+      padding-bottom: 10px;
+      font-size: 8px;
+    }
+  
+    .h5-spec {
+      text-align: left;
+      font-style: italic;
+      font-size: 12px;
+    }
+  
+    .p-spec {
+      text-align: left;
+      padding-bottom: 10px;
+      max-width: 95%;
+      font-size: 8px;
+    }
+  
+    .contacth1 {
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 16px;
+    }
+  
+    .conticons li {
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 8px;
+      display: inline;
+    }
+  
+    .contact {
+      background-color: cadetblue;
+      max-height: 50px;
+      padding-top: 0;
+      padding-bottom: 0;
+    
+    }
+
+}
+
+/* **************************************** */
+/**************************** **************************/
+/* **************************************** */
+/**************************** **************************//* **************************************** */
+/**************************** **************************//* **************************************** */
+/**************************** **************************//* **************************************** */
+/**************************** **************************/
+
+/* ----------- iPhone X ----------- */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    .imgtop {
+      background-image: url("/images/tkbooks-mobile.png");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+    }
+  
+    .header-text h1 {
+      color: white;
+      font-size: 16px;
+      font-weight: 800;
+      text-align: left;
+      margin-bottom: 5;
+      padding-bottom: 0;
+      letter-spacing: 2;
+    }
+  
+    .header-text p {
+      color: white;
+      font-size: 10px;
+      text-align: center;
+      margin-top: 0;
+      padding-top: 0;
+      letter-spacing: 2px;
+      word-spacing: 1;
+    }
+  
+    #nav {
+      height: 55px;
+      display: flex; 
+      width: 100%;
+      transition:  2s;
+      top: 0;
+      background: linear-gradient(to left, #a4b6d0, lightcyan,#ffecbc);
+    } 
+    .navbar-brand {
+      padding-top: auto;
+      padding-bottom: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: small;
+    }
+  
+    .h1-about {
+      font-size: 16px;
+    }
+  
+    .p1-about {
+      font-size: 12px;
+    }
+    
+    .p1about {
+      max-width: 95%;
+      line-height: 2;
+    }
+  
+    .weaHistory {
+      color: white;
+      font-size: 16px;
+    }
+  
+    #hxlist {
+      display: none;
+     
+    }
+  
+    .h4Pres {
+      color: white;
+      font-style: italic;
+      padding-top: 20px;
+      font-size: 16px;
+    }
+  
+    #PP {
+      padding-top: 0;
+    }
+  
+    .Ppres {
+      color: white;
+      max-width: 95%;
+      font-size: 8px;
+    }
+  
+   .imgexcitinghist {
+    background-image: url("/images/bb.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    height: 90vw;
+    }
+    #eduH1 h2{
+      text-align: left;
+      font-size: 16px;
+    }
+  
+    #eduH1 {
+      text-align: left;
+      font-size: 16px;
+    }
+  
+    .weaHistory {
+      color: white;
+      padding-top: 3vw;
+      padding-bottom: 1vw;
+    }
+  
+    
+  
+    .cv {
+      text-align: center;
+      font-size: 16px;
+    }
+    
+     .dates {
+      text-align: left;
+      font-size: 8px;
+    }
+    
+    .degree {
+      text-align: left;
+      font-size: 16px;
+    }
+    
+    .education  {
+      list-style: none;
+      font-size: 16px;
+    }
+    
+    .subbul {
+      list-style: none;
+      font-size: 8px;
+    }
+  
+    .liItem {
+      max-width: 100%;
+      font-size: 8px;
+      padding-bottom: 10px;
+    }
+    .presearch {
+      text-align: left;
+      max-width: 850px; 
+      padding-bottom: 10px;
+      font-size: 8px;
+    }
+  
+    .h5-spec {
+      text-align: left;
+      font-style: italic;
+      font-size: 12px;
+    }
+  
+    .p-spec {
+      text-align: left;
+      padding-bottom: 10px;
+      max-width: 95%;
+      font-size: 8px;
+    }
+  
+    .contacth1 {
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 16px;
+    }
+  
+    .conticons li {
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 8px;
+      display: inline;
+    }
+  
+    .contact {
+      background-color: cadetblue;
+      max-height: 50px;
+      padding-top: 0;
+      padding-bottom: 0;
+    
+    }
+  }
+   
+  @media all and (max-width: 480px) {
+    
+    .imgtop {
+      background-image: url("/images/tkbooks-mobile.png");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+    }
+  
+    .header-text h1 {
+      color: white;
+      font-size: 16px;
+      font-weight: 800;
+      text-align: left;
+      margin-bottom: 5;
+      padding-bottom: 0;
+      letter-spacing: 2;
+    }
+  
+    .header-text p {
+      color: white;
+      font-size: 10px;
+      text-align: center;
+      margin-top: 0;
+      padding-top: 0;
+      letter-spacing: 2px;
+      word-spacing: 1;
+    }
+  
+    #nav {
+      height: 49px;
+      display: flex; 
+      width: 100%;
+      transition:  2s;
+      top: 0;
+      background: linear-gradient(to left, #a4b6d0, lightcyan,#ffecbc);
+    } 
+    .navbar-brand {
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: small;
+    }
+  
+    .h1-about {
+      font-size: 16px;
+    }
+  
+    .p1-about {
+      font-size: 12px;
+    }
+    
+    .p1about {
+      max-width: 95%;
+      line-height: 2;
+    }
+  
+    .weaHistory {
+      color: white;
+      font-size: 16px;
+    }
+  
+    #hxlist {
+      display: none;
+     
+    }
+  
+    .h4Pres {
+      color: white;
+      font-style: italic;
+      padding-top: 20px;
+      font-size: 16px;
+    }
+  
+    #PP {
+      padding-top: 0;
+    }
+  
+    .Ppres {
+      color: white;
+      max-width: 95%;
+      font-size: 8px;
+    }
+  
+   .imgexcitinghist {
+    background-image: url("/images/bb.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    height: 90vw;
+    }
+    #eduH1 h2{
+      text-align: left;
+      font-size: 16px;
+    }
+  
+    #eduH1 {
+      text-align: left;
+      font-size: 16px;
+    }
+  
+    .weaHistory {
+      color: white;
+      padding-top: 3vw;
+      padding-bottom: 1vw;
+    }
+  
+    
+  
+    .cv {
+      text-align: center;
+      font-size: 16px;
+    }
+    
+     .dates {
+      text-align: left;
+      font-size: 8px;
+    }
+    
+    .degree {
+      text-align: left;
+      font-size: 16px;
+    }
+    
+    .education  {
+      list-style: none;
+      font-size: 16px;
+    }
+    
+    .subbul {
+      list-style: none;
+      font-size: 8px;
+    }
+  
+    .liItem {
+      max-width: 100%;
+      font-size: 8px;
+      padding-bottom: 10px;
+    }
+    .presearch {
+      text-align: left;
+      max-width: 850px; 
+      padding-bottom: 10px;
+      font-size: 8px;
+    }
+  
+    .h5-spec {
+      text-align: left;
+      font-style: italic;
+      font-size: 12px;
+    }
+  
+    .p-spec {
+      text-align: left;
+      padding-bottom: 10px;
+      max-width: 95%;
+      font-size: 8px;
+    }
+  
+    .contacth1 {
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 16px;
+    }
+  
+    .conticons li {
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 8px;
+      display: inline;
+    }
+  
+    .contact {
+      background-color: cadetblue;
+      max-height: 50px;
+      padding-top: 0;
+      padding-bottom: 0;
+    
+    }
 
 }
