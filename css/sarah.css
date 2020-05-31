@@ -183,9 +183,9 @@ padding-top: 50px;
 }
 
 
+
 #nav {
-  height: 30px;
-  display: flex; 
+  height: 4rem;
   width: 100%;
   transition:  2s;
   top: 0;
