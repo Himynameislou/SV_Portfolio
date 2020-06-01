@@ -187,13 +187,11 @@ padding-top: 50px;
 }
 
 .nav-link {
-  background-color: teal !important;
-  opacity: 50%;
-  
+  color:grey !important;
 }
 
 #nav {
-  height: 4rem;
+  height: 3.5rem;
   width: 100%;
   transition:  2s;
   top: 0;
