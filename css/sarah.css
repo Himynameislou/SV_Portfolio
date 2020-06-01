@@ -182,7 +182,13 @@ padding-top: 50px;
   padding-top: 0;
 }
 
+.navbar-brand {
+  color: black !important;
+}
 
+.nav-link {
+  background-color: teal !important;
+}
 
 #nav {
   height: 4rem;
