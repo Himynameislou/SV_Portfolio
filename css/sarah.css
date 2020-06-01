@@ -188,6 +188,8 @@ padding-top: 50px;
 
 .nav-link {
   background-color: teal !important;
+  opacity: 50%;
+  
 }
 
 #nav {
